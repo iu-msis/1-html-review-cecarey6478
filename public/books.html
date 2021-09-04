@@ -30,7 +30,85 @@
         </ul>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
+
+    <h1>Books</h1>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author(s)</th>
+            <th scope="col">Year Published</th>
+            <th scope="col">Publisher</th>
+            <th scope="col">Page Count</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fahrenheit 451</td>
+            <td>Ray Bradbury</td>
+            <td>2012</td>
+            <td>Simon & Schuster</td>
+            <td>249</td>
+            <td>8.29</td>
+          </tr>
+          <tr>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>1961</td>
+            <td>Signet Classic</td>
+            <td>328</td>
+            <td>7.48</td>
+          </tr>
+          <tr>
+            <td>Dune</td>
+            <td>Frank Herbert</td>
+            <td>1990</td>
+            <td>Ace</td>
+            <td>896</td>
+            <td>9.89</td>
+          </tr>
+          <tr>
+            <td>Lord of the Flies</td>
+            <td>William Golding</td>
+            <td>2003</td>
+            <td>Penguin Books</td>
+            <td>224</td>
+            <td>5.99</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Add a Book:</h2>
+
+      <form>
+        <div class="mb-3">
+          <label for="bookName" class="form-label">Book's Name:</label>
+          <input type="text" class="form-control" id="bookName">
+        </div>
+        <div class="mb-3">
+          <label for="authorName" class="form-label">Author:</label>
+          <input type="text" class="form-control" id="authorName">
+        </div>
+        <div class="mb-3">
+            <label for="pubYear" class="form-label">Year Published:</label>
+            <input type="number" class="form-control" id="pubYear">
+        </div>
+        <div class="mb-3">
+            <label for="pubName" class="form-label">Publisher:</label>
+            <input type="text" class="form-control" id="pubName">
+        </div>
+        <div class="mb-3">
+            <label for="pageCount" class="form-label">Page Count:</label>
+            <input type="number" class="form-control" id="pageCount">
+        </div>
+        <div class="mb-3">
+            <label for="bookPrice" class="form-label">Price:</label>
+            <input type="number" step=".01" class="form-control" id="bookPrice">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
