@@ -49,7 +49,6 @@ const SomeApp = {
                 console.error(err);
             })
         }
-        
     },
     created() {
         this.fetchBookData();
